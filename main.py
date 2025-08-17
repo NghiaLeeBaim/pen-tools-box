@@ -74,7 +74,7 @@ def check_and_install_dependencies():
             sys.exit(1)
 
 def logo():
-    print  ("""%s
+    print  (r"""%s
  _______  _______  _        ______   _______          
 (  ____ )(  ____ \( (    /|(  ___ \ (  ___  )|\     /|
 | (    )|| (    \/|  \  ( || (   ) )| (   ) |( \   / )
@@ -91,7 +91,7 @@ def logo():
 [-]             Greetz To All Pentesters                [-] 
 """)%(G,R,B,G,Y,G,Y,G,R,G)
 def menu():
-    print ("""
+    print (r"""
 
 %s
  _______  _______  _        ______   _______          
